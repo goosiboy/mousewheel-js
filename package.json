@@ -1,0 +1,19 @@
+{
+  "name": "myproject1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/main.js",
+  "scripts": {
+    "start-watch": "nodemon main.js",
+    "http-ws": "http-server",
+    "start": "concurrently --kill-others \"npm run start-watch\" \"npm run http-ws\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
