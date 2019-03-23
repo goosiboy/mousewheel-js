@@ -1,6 +1,6 @@
 # mousewheel-js
 
- A simple microlibrary for horizontal mouse wheel functionality.
+ A simple microlibrary for custom mouse wheel functionality.
 
  # How to use the library:
 
