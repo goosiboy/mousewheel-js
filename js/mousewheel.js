@@ -16,8 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             DIRECTION: wheelDown.toRight,
             //direction: wheelDown.toLeft
         }
-
-        //DO NOT TOUCH
+        
         document.addEventListener("wheel", function(e) {
             let y = e.deltaY;
             
